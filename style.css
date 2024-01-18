@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./christie-kim-0IsBu45B3T8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("./christie-kim-0IsBu45B3T8-unsplash.jpg"); */
+    /* background-size: cover; */
+
+    padding: 10px 20px 20px 10px;
+
+
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.quoteBox {
+    height: 40%;
+    width: 60%;
+    border: 2px solid black;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    background: transparent;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
